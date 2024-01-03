@@ -6,4 +6,18 @@ LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),taimen)
 
+$(call add-radio-file-sha1-checked,radio/abl.img,4954869bd307ee1f8738ff230e5bac62b2cf4ddd)
+$(call add-radio-file-sha1-checked,radio/aes.img,f4c78973ad1e0f24387df3c7c8fa4d3b5c92c033)
+$(call add-radio-file-sha1-checked,radio/cmnlib.img,0ba982a19787a5c5cb360cb11d87cf4c7d032de1)
+$(call add-radio-file-sha1-checked,radio/cmnlib64.img,b386883ef172e560272b5e919b6cb09773451016)
+$(call add-radio-file-sha1-checked,radio/devcfg.img,a88e839978241a9880bc8b4c05e15be9c75faee0)
+$(call add-radio-file-sha1-checked,radio/hyp.img,4a4a24488ca2745b4b85a2466759cc662c2d0a53)
+$(call add-radio-file-sha1-checked,radio/keymaster.img,cf594fb1328eb962565897e21852a0500e1d5e2a)
+$(call add-radio-file-sha1-checked,radio/laf.img,dcc79be3c1bdf0e0cf48dba8f1a1a7465754df04)
+$(call add-radio-file-sha1-checked,radio/modem.img,54786b8bfba0430a017c67f18a3626595cd369ed)
+$(call add-radio-file-sha1-checked,radio/pmic.img,3c97742bcf258bf490d3205df18b5b749d56848a)
+$(call add-radio-file-sha1-checked,radio/rpm.img,6a9bb12266c1792a8309368ca0e073de6d454992)
+$(call add-radio-file-sha1-checked,radio/tz.img,e9fa900f3db58ac9f0db3f6180568025eff358c3)
+$(call add-radio-file-sha1-checked,radio/xbl.img,92598485360d434a65aa3a791a325e720d73d5c1)
+
 endif
