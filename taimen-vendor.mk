@@ -847,6 +847,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/vendor/lib64/libgoog_zoom_core.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoog_zoom_core.so \
     vendor/google/taimen/proprietary/vendor/lib64/libgpustats.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpustats.so \
     vendor/google/taimen/proprietary/vendor/lib64/libgsl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgsl.so \
+    vendor/google/taimen/proprietary/vendor/lib64/libhdr_tm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdr_tm.so \
     vendor/google/taimen/proprietary/vendor/lib64/libhdrplusclientimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrplusclientimpl.so \
     vendor/google/taimen/proprietary/vendor/lib64/libhdrplusmessenger.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhdrplusmessenger.so \
     vendor/google/taimen/proprietary/vendor/lib64/libhexagon_nn_controller.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libhexagon_nn_controller.so \
@@ -906,6 +907,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/taimen/proprietary/vendor/lib64/librpmb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librpmb.so \
     vendor/google/taimen/proprietary/vendor/lib64/librs_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno.so \
     vendor/google/taimen/proprietary/vendor/lib64/librs_adreno_sha1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librs_adreno_sha1.so \
+    vendor/google/taimen/proprietary/vendor/lib64/libsdedrm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdedrm.so \
     vendor/google/taimen/proprietary/vendor/lib64/libsdm-color.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-color.so \
     vendor/google/taimen/proprietary/vendor/lib64/libsdm-diag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-diag.so \
     vendor/google/taimen/proprietary/vendor/lib64/libsdm-disp-apis.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdm-disp-apis.so \
